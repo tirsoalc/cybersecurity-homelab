@@ -33,3 +33,14 @@ sudo apt update
 # install docker packages
 
 sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+# firewall settings for tools (ELK dashboard)
+
+sudo ufw enable; sudo ufw allow ssh; sudo ufw allow 5601/tcp
+
+# allows homelab subnet (see oracle-virtualbox-info.txt)
+
+sudo ufw allow from 10.0.2.0/24 to any port 1514 proto udp
+
+sudo ufw reload
+
