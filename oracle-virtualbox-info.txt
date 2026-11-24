@@ -1,6 +1,5 @@
-# File > Tools > Network > NAT Networks > Create (10.0.2.0/24 - for compliance with bootstrap scripts)> Enable DHCP ($ANY_NAME)
+# File > Tools > Network > NAT Networks > Create (10.0.2.0/24 - for compliance with bootstrap scripts)> Enable DHCP
 
-# Ubuntu-Server #
--> Do not allow bidirectional copy/paste or drag-n-drop.
--> After setting up bootstrap.sh change network interface to NAT Network ($ANY_NAME)
+# Ubuntu-Server # After Bootstrap.sh
 -> Promiscuous Mode: Allow VMs
+-> Do not allow bidirectional copy/paste or drag-n-drop.
